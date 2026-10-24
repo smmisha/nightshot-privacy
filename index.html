@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'unsafe-inline'; base-uri 'none'; form-action 'none'">
+<meta name="description" content="Privacy policy for NightShot Screenshot, a Windows screenshot utility by socialmediamisha.">
+<title>Privacy policy · NightShot Screenshot</title>
+<style>
+*{box-sizing:border-box}html{font-family:system-ui,"Segoe UI",sans-serif;color:#19334b;background:#edf4f9;line-height:1.7}
+body{margin:0;padding:48px 20px}main{max-width:800px;margin:auto;padding:40px 48px;background:#fff;border:1px solid #d5e1eb;border-radius:20px}
+.eyebrow{color:#356180;font-size:14px;margin:0 0 12px;letter-spacing:.03em}h1{font-size:clamp(26px,5vw,36px);line-height:1.22;margin:0 0 20px;overflow-wrap:anywhere}
+h2{font-size:22px;line-height:1.35;margin:36px 0 12px}p{margin:0 0 18px}a{color:#075d9d;text-underline-offset:3px;overflow-wrap:anywhere}a:focus-visible{outline:3px solid #2176b6;outline-offset:4px;border-radius:2px}
+@media(max-width:540px){body{padding:16px 12px}main{padding:26px 20px;border-radius:14px}h2{font-size:20px}}
+@media(prefers-color-scheme:dark){html{color:#e4eef5;background:#102132}main{background:#182e42;border-color:#345069}.eyebrow{color:#a6c5dc}a{color:#9ed5ff}}
+@media print{html,main{background:white;color:black}body,main{padding:0}main{border:0;max-width:none}a{color:inherit}h2{break-after:avoid}}
+</style></head><body><main><div class="eyebrow">Windows screenshot utility · socialmediamisha</div>
+<h1>NightShot Screenshot Privacy Policy</h1>
+<p>Updated: 25 October 2026.</p>
+<p>NightShot is a Windows screenshot utility. It does not require an account. It has no application analytics, advertising identifiers, or built-in telemetry.</p>
+<h2>Screen capture and text recognition</h2>
+<p>Screenshots are captured when you request a capture. The current capture is processed in memory. Text recognition runs on your device using Windows OCR or downloaded PaddleOCR models. NightShot does not send images or recognized text to a cloud recognition service. A temporary mouse hook protects input while a capture opens and an early drag finishes; it is not a background input recorder.</p>
+<h2>Local storage</h2>
+<p>NightShot stores settings, recent screenshot history, downloaded OCR models, and local application logs in your Windows user profile. History is limited to 40 recent images and can be cleared from the application. Text placed on the clipboard is handled by Windows and any clipboard features you have enabled. Files you save to a location you choose remain there until you delete them.</p>
+<p>Diagnostic capture/selection tracing is off by default. If explicitly enabled for troubleshooting, it records timing, capture generation numbers and numeric selection geometry, without screenshot pixels or recognized text. Logs are not automatically uploaded to the developer.</p>
+<p>Some error diagnostics also record numeric selection geometry. Separately enabled storage-path diagnostics contain local folder and executable paths, which may include your Windows user name. These reports remain local unless you choose to share them for support. NightShot does not add its own encryption to local screenshot files; protect your Windows account and saved files.</p>
+<h2>Optional public image upload</h2>
+<p>Only when you choose the upload action does NightShot send the selected PNG image, including its annotations, over HTTPS to <strong>https://x0.at/</strong>. The service returns a <strong>public link</strong>. The image is not protected by a NightShot account or password. Anyone who obtains the link may access or redistribute the image. Do not upload private, personal, financial, medical or other confidential content.</p>
+<p>The hosting service receives the image and normal network request information, including your IP address and the NightShot version in its user-agent. Its storage and retention practices are controlled by that independent service. NightShot does not provide a remote deletion function or guarantee that a publicly uploaded image can be recalled. Clearing local history does not delete an uploaded image. You can use local capture, saving and OCR without uploading.</p>
+<h2>OCR model downloads</h2>
+<p>When you choose to download a language pack, NightShot requests public model files from <strong>https://www.modelscope.cn/</strong> and, if necessary, from the NightShot model release at <strong>https://github.com/smmisha/nightshot-ocr-models/</strong>. GitHub may serve files through its download CDN. These services receive normal download request information such as your IP address. Screenshots and recognized text are not part of model download requests. Downloaded files are checked against pinned sizes and SHA-256 hashes before use.</p>
+<h2>Windows and third-party components</h2>
+<p>Windows, Microsoft Store and Microsoft Edge WebView2 Runtime have their own update, diagnostic and privacy settings. Their platform behavior is separate from NightShot&#39;s application networking. Opening a link at your request also uses your system browser and that website&#39;s own privacy practices.</p>
+<h2>Your controls</h2>
+<p>You decide when to capture, save, recognize text and upload an image. You can clear screenshot history, disable startup with Windows, and uninstall NightShot. Uninstalling an MSIX package removes its package-managed private data; files saved outside that storage, pre-existing data from an unpackaged installation, Windows clipboard data and remotely uploaded images are not erased by that operation. Keep any files you want to retain before uninstalling.</p>
+<h2>Publisher and contact</h2>
+<p>NightShot Screenshot is published by <strong>socialmediamisha</strong>. For privacy questions or application support, contact <a href="mailto:studymishaforever@aol.com">studymishaforever@aol.com</a>. Only include information you choose to share. Do not send confidential screenshots unless they are necessary for your request.</p>
+</main></body></html>
